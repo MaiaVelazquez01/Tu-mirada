@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu mirada</title>
+    <link rel="icon" href="assets/img/icon.jpg" />
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+    <header class="menu">
+        <a href="#"><h1 class="menu-logo">Tu mirada</h1></a>
+        <nav> 
+            <div class="cart-label">
+                <img src="assets/img/cart.png" class="cart-icon"/>
+            </div>
+            <div class="cart">
+                <h2>Tus productos</h2>
+                <div class="cart-container"></div>
+                <span class="divider"></span>
+                <div class="cart-total">
+                  <p>Total:</p>
+                  <span class="total"></span>
+                </div>
+                <button class="btn-buy">COMPRAR</button>
+            </div>
+            <div class="menu-label">
+                <img src="assets/img/menu.png" class="menu-icon"/>
+            </div>
+            <ul class="navbar-list">
+                <li class="navbar-link"><a href="#servicios">Nuestros servicios</a></li>
+                <li class="navbar-link"><a href="#precios">Precios</a></li>
+                <li class="navbar-links-usuario">
+                    <img src="assets/img/usuario.jpg" class="navbar-link-usuario-img" />
+                    <a href="register.html" class="navbar-link-usuario">Crear cuenta</a>
+                    <a href="login.html" class="navbar-link-usuario">Iniciar sesión</a>
+                </li>
+            </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="hero">
+            <img src="assets/img/video-hero.gif"  class="hero-video">
+        </section>
+        <section class="servicios" id="servicios">
+            <h2>Nuestros servicios</h2>
+            <div class="servicios-cards">
+                <div class="servicios-card">
+                    <img src="assets/img/styling-cejas.png">
+                    <div class="servicios-card-text">
+                        <h3>Styling de Cejas</h3>
+                        <p>Diseño, tinte y alisado de cejas rebeldes para lograr cejas más definidas, con un estilo natural, que realzan tu mirada</p>
+                        <span>¡PROBALO!</span>
+                    </div>
+                </div>
+                <div class="servicios-card">
+                    <img src="assets/img/styling-pestañas.png">
+                    <div class="servicios-card-text">
+                        <h3>Styling de Pestañas</h3>
+                        <p>Pestañas más largas, arqueadas y prominentes a través del tinte, permanente, lifting o extensiones pelo a pelo</p>
+                        <span>¡ANIMATE!</span>
+                    </div>
+                </div>
+                <div class="servicios-card">
+                    <img src="assets/img/threading.png">
+                    <div class="servicios-card-text">
+                        <h3>Threading</h3>
+                        <p>Ideal para lograr un perfilado de cejas perfecto y para la depilación de zonas sensibles como el rostro</p>
+                        <span>¡DESCUBRILO!</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="precios" id="precios">
+            <h2>Precios</h2>
+            <div class="categories">
+                <button class="category active" data-category="todos">Todos</button>
+                <button class="category" data-category="styling-cejas">Styling Cejas</button>
+                <button class="category" data-category="styling-pestañas">Styling Pestañas</button>
+                <button class="category" data-category="threading">Threading</button>
+            </div>
+            <div class="products-container"></div>
+            <button class="btn-load">Ver Más</button>
+        </section>
+      </main>
+      <footer>
+        <h2>Tu mirada</h2>
+        <div class="footer-menu">
+          <h3>MENÚ</h3>
+          <a href="#servicios"><p>Nuestros servicios</p></a>
+          <a href="#precios"><p>Precios</p></a>
+        </div>
+        <div class="footer-usuario">
+          <h3><a href="register.html">CREAR CUENTA</a></h3>
+          <h3><a href="login.html">INICIAR SESIÓN</a></h3>
+        </div>
+        <div class="footer-social">
+          <h3>SOCIAL</h3>
+          <div class="footer-social-items">
+            <a
+              href="#"
+              target="blank"
+              class="footer-social-item"
+              ><img
+                src="assets/img/icono_insta.png"
+                class="footer-social-item-img"
+            /></a>
+            <a
+              href="#"
+              target="blank"
+              class="footer-social-item"
+              ><img
+                src="assets/img/icono_twitter.png"
+                class="footer-social-item-img"
+            /></a>
+            <a
+              href="#"
+              target="blank"
+              class="footer-social-item"
+              ><img src="assets/img/icono_face.jpg" class="footer-social-item-img"
+            /></a>
+          </div>
+        </div>
+      </footer>
+      <script src="assets/data.js"></script>
+      <script src="assets/index.js"></script>
+</body>
+</html>

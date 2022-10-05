@@ -62,6 +62,7 @@ span {
       color: var(--gris);
       text-align: center;
       font-size: small;
+      padding-top: 1rem;
     }
   
     .log-in-box-form p, .register-box-form p {
@@ -187,7 +188,7 @@ span {
       padding: 8px;
     }
   
-    .log_in-down p, .register-down p{
+    .log-in-down p, .register-down p{
       font-size: medium;
     }
   }

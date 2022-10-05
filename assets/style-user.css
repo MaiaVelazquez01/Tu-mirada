@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Didact+Gothic&family=Rubik:wght@600&display=swap");
+
+:root {
+    --marron: #e2c8b6;
+    --rosa: #ffe7d6;
+    --lila: #f0efeb;
+    --verde: #a5a58d;
+    --gris: #6c7880;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--lila);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+span {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) {
+    .log_in, .register {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .log-in-box h1, .register-box h1 {
+      font-family: "Dancing Script", "sans-serif";
+      font-size: xx-large;
+      font-weight: 300;
+      color: white;
+    }
+  
+    .register-box h2 {
+      font-family: "Rubik", "sans-serif";
+      font-size: small;
+      text-align: center;
+      color: var(--gris);
+    }
+  
+    .log-in p, .register p {
+      font-family: "Rubik", "sans-serif";
+      color: var(--gris);
+      text-align: center;
+      font-size: small;
+    }
+  
+    .log-in-box-form p, .register-box-form p {
+      color: var(--gris);
+      font-size: small;
+    }
+  
+    .log-in-box, .register-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 20px;
+      padding: 2rem 1rem;
+      gap: 10px;
+      background-color: var(--marron);
+    }
+  
+    .register-box {
+      padding: 12px;
+      width: 270px;
+      height: 350px;
+      justify-content: center;
+      gap: 25px;
+    }
+  
+    .log-in-box-form, .register-box-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    .register-box-form {
+      gap: 15px;
+    }
+  
+    .log-in-box-form-inputs, .register-box-form-inputs {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .log-in-box-form input, .register-box-form input {
+      border-radius: 20px;
+      padding: 10px;
+      width: 200px;
+      border: none;
+    }
+  
+    #option {
+      width: 20px;
+      height: 20px;
+    }
+  
+    button {
+      background-color: var(--verde);
+      color: white;
+      font-family: "Rubik", "sans-serif";
+      padding: 8px;
+      cursor: pointer;
+      border-radius: 20px;
+      border: 1px solid var(--verde);
+    }
+  
+    button:hover {
+      border: 1px solid white;
+      transition: 0.5s ease-out;
+    }
+
+    .submit-btns {
+        color: var(--gris);
+    }
+  }
+  
+  @media (min-width: 481px) {
+    .log-in, .register {
+      gap: 30px;
+    }
+  
+    .log-in-box, .register-box {
+      padding: 3rem 2rem;
+      gap: 30px;
+    }
+  
+    .register-box {
+      width: 350px;
+      height: auto;
+    }
+  
+    .log-in-box h1, .register-box h1 {
+      font-size: xx-large;
+    }
+  
+    .register-box h2 {
+      font-size: medium;
+    }
+  
+    .log-in-box-form, .register-box-form {
+      gap: 40px;
+    }
+  
+    .log-in-box-form p, .register-box-form p {
+      font-size: smaller;
+    }
+  
+    .log-in-box-form input, .register-box-form input {
+      width: 270px;
+    }
+  
+    .log-in-box-form-inputs, .register-box-form-inputs {
+      gap: 15px;
+    }
+  
+    .checkbox {
+      font-size: smaller;
+    }
+  
+    button {
+      font-size: large;
+      width: auto;
+      padding: 8px;
+    }
+  
+    .log_in-down p, .register-down p{
+      font-size: medium;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .log-in-box h1, .register-box h1 {
+      font-size: xxx-large;
+    }
+  
+    .log-in-box {
+      padding: 4rem 3rem;
+      gap: 35px;
+    }
+  
+    .register-box {
+      padding: 2rem 3rem;
+      width: 500px;
+      gap: 25px;
+    }
+  
+    .register-box-form {
+      gap: 20px;
+    }
+  
+    .log-in-box-form-inputs, .register-box-form-inputs {
+      gap: 15px;
+    }
+  
+    .log-in-box-form input, .register-box-form input {
+      width: 360px;
+    }
+  
+    .log_in__box__form p, .register__box__form p {
+      font-size: larger;
+    }
+  
+    .checkbox {
+      font-size: medium;
+      padding-right: 30px;
+    }
+  
+    button {
+      font-size: large;
+      width: auto;
+      padding: 10px;
+    }
+  
+    .log-in-down p, .register__down p {
+      font-size: x-large;
+    }
+  }

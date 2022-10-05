@@ -28,6 +28,7 @@ li {
 }
 
 header {
+  width: 100%;
   position: sticky;
   z-index: 1;
   top: 0px;
@@ -464,7 +465,6 @@ header {
     flex-direction: row;
     margin: 0rem;
     gap: 20px;
-    width: 100vw;
     justify-content: center;
   }
 
